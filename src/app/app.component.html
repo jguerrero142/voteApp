@@ -1,0 +1,40 @@
+<div class="container">
+  <p>
+    <mat-toolbar>
+     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+     <mat-icon>share</mat-icon>
+   </button>
+  </mat-toolbar>
+  </p>
+
+ <div>
+  <mat-form-field appearance="fill">
+    <p> Digita el nombre</p>
+    <mat-label>nombre</mat-label>
+    <input matInput>
+  </mat-form-field>
+
+  <div class="example-container">
+    <mat-form-field appearance="fill">
+      <p> Digita la contrasena </p>
+      <mat-label>Enter your password</mat-label>
+      <input matInput [type]="hide ? 'password' : 'text'">
+    </mat-form-field>
+ </div>
+
+ <div class="example-button-row">
+  
+  <button mat-button color="warn">ingresar</button>
+
+</div>
+
+
+</div>
