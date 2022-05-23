@@ -1,0 +1,38 @@
+:host {
+    text-align: center;
+  }
+ 
+  
+  mat-toolbar{
+      width: auto;
+    background: #5bdd1a;
+    color: #fff;
+  }
+
+  nz-content {
+    height: 595px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    /* min-height: 120px;
+    line-height: 120px; */
+  }
+
+  /* nz-layout {
+    margin-bottom: 48px;
+  } */
+
+  nz-layout nz-layout,
+  nz-layout:last-child {
+    background-color: transparent;
+    margin: 0;
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  nz-footer{
+    background: #5bdd1a;
+    color: #fff;
+    line-height: 1.5;
+  }
